@@ -1,0 +1,156 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #f2f2f2;
+}
+
+/* ======= ENCABEZADO ======= */
+header {
+    background: #0056D2; /* Azul principal */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* CRAP → Alineación + Contraste */
+header h1 {
+    margin: 0;
+    font-size: 36px;
+    letter-spacing: 2px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 10px;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 6px 10px;
+    border-radius: 6px;
+}
+
+nav a:hover {
+    background: #003c95; /* Azul más oscuro */
+}
+
+/* ======= SECCIONES ======= */
+section {
+    padding: 25px;
+    text-align: center;
+}
+
+h2 {
+    color: #003c95; /* Azul oscuro */
+}
+
+.galeria {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+    margin: 15px auto;
+    max-width: 700px;
+}
+
+.galeria img {
+    width: 100%;
+    border-radius: 10px;
+    border: 2px solid #0056D2;
+}
+
+/* ======= ARTICLE ======= */
+article {
+    background: white;
+    padding: 20px;
+    width: 70%;
+    margin: auto;
+    border-radius: 12px;
+    text-align: left;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    border-left: 6px solid #0056D2;
+}
+
+article h3 {
+    color: #0056D2;
+}
+
+/* ======= PIE DE PAGINA ======= */
+footer {
+    background: #003c95;
+    color: white;
+    text-align: center;
+    padding: 13px;
+}
+/* ===== FORMULARIO ===== */
+
+.form-section {
+    text-align: center;
+    padding: 30px;
+}
+
+.form-section h2 {
+    color: #003c95;
+}
+
+.form-section p {
+    font-size: 16px;
+    color: #333;
+}
+
+.form-box {
+    background: white;
+    width: 60%;
+    margin: auto;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 0 12px rgba(0,0,0,0.25);
+    border-left: 6px solid #0056D2; /* Alineación con el article */
+}
+
+.form-box label {
+    display: block;
+    text-align: left;
+    margin-top: 15px;
+    font-weight: bold;
+    color: #003c95;
+}
+
+.form-box input,
+.form-box textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 6px;
+    border: 2px solid #0056D2;
+    border-radius: 6px;
+    font-size: 15px;
+}
+
+.form-box input:focus,
+.form-box textarea:focus {
+    outline: none;
+    border-color: #003c95;
+}
+
+.form-box button {
+    margin-top: 20px;
+    background: #0056D2;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.form-box button:hover {
+    background: #003c95;
+}
